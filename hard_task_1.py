@@ -1,0 +1,6 @@
+equation = input('Enter equation in form: kx+b: ')
+extraction_list = equation.split('x+')
+k = int(extraction_list[0])
+b = int(extraction_list[1])
+x = int(input('Enter x: '))
+print('y = {0}'.format(k * x + b))
